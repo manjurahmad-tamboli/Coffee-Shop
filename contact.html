@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    /* ---- CSS Styling ---- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff9f3;
+    }
+
+    .contact-section {
+      background-color: #fef9f4;
+      padding: 60px 30px;
+      text-align: center;
+      border-top: 4px solid #c19a6b;
+    }
+
+    .contact-section h2 {
+      font-size: 2.5em;
+      color: #6b3e26;
+    }
+
+    .contact-info p {
+      font-size: 1.1em;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: #c16032;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-section button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #6b3e26;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-section button:hover {
+      background-color: #8a5b3c;
+    }
+
+    #message {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.1em;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ---- CONTACT SECTION ---- -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Feel free to get in touch with us:</p>
+    
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:coffeehouse@gmail.com">coffeehouse@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:‪+911234567890‬">‪+91 12345 67890‬</a></p>
+      <p><strong>Address:</strong> 123 Coffee Street, Mumbai, India</p>
+    </div>
+
+    <button onclick="showThanks()">Send a Message</button>
+    <p id="message">Thank you for contacting us! ☕</p>
+  </section>
+
+  <!-- ---- JavaScript ---- -->
+  <script>
+    function showThanks() {
+      document.getElementById("message").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>

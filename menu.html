@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House - Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="49164.jpg" alt="Coffee House Logo">
+            <span>Coffee House</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="project2.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+               <li><a href="#testimonials">Testimonials</a></li> 
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <main class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="menu-card">
+                <img src="espresso.jpg" alt="Coffee 1">
+                <h3>Espresso</h3>
+                <p>A strong and bold coffee made with finely ground beans.</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+            <!-- Repeat for other cards (Card 2 to Card 6) -->
+            <div class="menu-card">
+                <img src="OIP.jpeg" alt="Coffee 1">
+                <h3>Cappuccino</h3>
+                <p>A coffee drink with Espresso and steamed milk,and a thick layer of foamed milk</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="mocha.jpeg" alt="Coffee 1">
+                <h3>Mocha</h3>
+                <p>A sweat coffee drink,chocolate syrup or cocoa powder.</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="Americano-coffee-.jpg" alt="Coffee 1">
+                <h3>Americano</h3>
+                <p> Espresso with hot water added,less intence flavour than straight espresso.</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="latte.jpg" alt="Coffee 1">
+                <h3>Latte</h3>
+                <p>Espresso with steamed milk and a thin layer of foam.</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+            <div class="menu-card">
+                <img src="affogato-coffee.jpg" alt="Coffee 1">
+                <h3>Affogato</h3>
+                <p>A scoop of ice cream with a shot of hot espresso poured over it.</p>
+                <div class="card-actions">
+                    <button class="buy-btn">Buy</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <i class="far fa-heart like-btn"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-content">
+            <h3>Your Cart</h3>
+            <ul class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <button class="close-cart-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Top-up Notification -->
+    <div class="notification">Item added to cart!</div>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
